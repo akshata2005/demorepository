@@ -1,0 +1,42 @@
+1)disck storage command
+du -sh *
+2)hello word.java
+public class Helloworld { public static void main(String args[]) {
+         while(true)
+         {
+            System.out.println("Hello world to terminal");
+try
+{
+
+            Thread.sleep(6000);
+}
+catch(Exception ex)
+         {
+          System.out.println(ex);
+         }
+
+         }
+      }
+}
+3) echo this is my first day | awk '{$4= "second"}{print $0}'
+this is my second day
+4)sequence - sequence construct tells the 
+which statement is to be executed next.
+5)difference betweent for and while loop: for loop is used for giving the range between particular number.and whlie loop is used for givivng the condition statement
+6)function:this is used for reusing the particular code.we can use this code as many times in the program.
+7)factorial of number : #!/bin/bash
+read -p "enter the number for factorial:" num
+fact=1;
+for (( i=1; i<$num; i++ ))
+do
+   fact=$(( fact * i ))
+   echo -n "$i *"
+done
+   echo -n "$num"
+   var=$(( num * fact ))
+   print "\n"
+   echo "factorial of $num is $var"
+and explaind the code .
+8)selection: here we use if statement and elif statement.case statement
+
+9)array:array is used for alloacating the memory.   
